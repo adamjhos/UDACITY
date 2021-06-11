@@ -1,0 +1,88 @@
+/* SPAGOTA CONFIDENTIAL - Base 1.0 June 2021 by Adam Hoskins */
+
+
+/* Global Header */
+.header {
+    background-color: black;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+a.header {
+
+}
+
+.nav {
+    background-color: gray;
+    font-family: usual,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* Text -- import font library - <link rel="stylesheet" href="https://use.typekit.net/uii7dup.css"> */
+
+h1 {
+    font-family: amador, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: usual,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+}
+
+h3 {
+
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+    font-size: 16px;
+    columns: black;
+
+}
+
+
+
+/* Images */
+
+.logo {
+    width: 100px;
+    padding: 15px;
+    grid-area: logo;
+    align-content: float;
+
+}
+
+
+/* Icons */
+
+.icon {
+    width: 25px;
+    padding: 5px 10px 15px 5px;
+    
+}
+
+
+
+
+/* Footer */

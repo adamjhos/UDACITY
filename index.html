@@ -1,45 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <title>Spagota Confidential</title>
 
-
+    <link rel="stylesheet" href="https://use.typekit.net/uii7dup.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/home.css">
 
 </head>
 
 <body>
-    <div class="header">
-        <img class=""src="" alt="Spagota Gaming Logo">
-        <h1>Spagota Confidential</h1>
-    </div>
-    <div class="social">
-        <img href="https://facebook.com/spagotagaming" src="" alt="Facebook Icon" class="icon">
-        <img href="" src="" alt="Twitter Icon" class="icon">
-        <img href="" src="" alt="Twitch Icon" class="icon">
-    </div>
-    <div class="navigation">
-        <p class="navele1"><a href="/posts/index.html">Home</a></p>
-        <p class="navele2"><a href="/posts/index.html">Posts</a></p>
-        <p class="navele3"><a href="/videos/highlights.html">Videos</a></p>
-        <p class="navele4"><a href="">Donate</a></p>
-    </div>
+    <div class="container">
+    <!--Pager Header-->
+        <div class="header">
+            <div class="title">
+                 <img class="logo" src="images/spagota_gaming_logo.png" alt="Spagota Gaming Logo">
+                <h1>Spagota Confidential</h1>
 
-    <hr>
+   
+                <div class="social">
+                    <img href="https://facebook.com/spagotagaming" src="images/icons/facebook.png" alt="Facebook Icon" class="icon">
+                    <img href="https://twitter.com/spagotagaming" src="images/icons/twitter.png" alt="Twitter Icon" class="icon">
+                    <img href="https://twitch.tv/spagotagaming" src="images/icons/twitch.png" alt="Twitch Icon" class="icon">
+             
+                </div>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a id="navele1" class="active" href="/posts/index.html">Home</a>
+            <a id="navele2" class="inactive" href="/posts/index.html">Posts</a>
+            <a id="navele3" class="inactive" href="/videos/highlights.html">Videos</a>
+            <a id="navele4" class="inactive" href="https://spagotagaming.com/tip">Donate</a>
+        </div>
+
+    <!--Page Body-->
     
     <div class="main">
         <h2>Welcome to the Blog</h2>
         <p>This blog will document my journey as I explore the gaming world, meet new people and learn new things. </p>
         <p>Something else here</p>
+
+        <h3>About Me</h3>
+        <p>Something here</p>
+        <p>Something here</p>
+        <p class="signature"></p>
     </div>    
 
     <div class="sidebar">
         <h3>Subscribe</h3>
         <form>
-
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <input type="submit" value="Submit">
         </form>
     </div>
 
 
-
+</div>
 </body>
 
 </html>
